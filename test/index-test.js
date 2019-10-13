@@ -24,8 +24,8 @@ describe('index', () => {
 
   it('calls console.log()', done => {
     const spy = expect.spyOn(console, 'log').andCallThrough()
-    calls console.log("Enter details")
-
+    console.log("I would be a logger.") // get it?
+    
     jsdom.env(html, [src], {
       virtualConsole: jsdom.createVirtualConsole().sendTo(console)
     }, (err, window) => {
