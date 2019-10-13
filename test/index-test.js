@@ -1,4 +1,3 @@
-console.error("HALP!")
 
 const expect = require('expect')
 const fs = require('fs')
@@ -46,3 +45,4 @@ describe('index', () => {
     })
   })
 })
+console.error("HALP!")
